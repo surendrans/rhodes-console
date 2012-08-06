@@ -1,0 +1,8 @@
+rhodes_path='/Users/geraldignatius/.rvm/gems/ruby-1.9.3-p125/gems/rhodes-3.3.3'
+app_version='1.0'
+app_name='Product-rhodes'
+reload_app_changes=1
+debug_port=
+debug_host='127.0.0.1'
+platform='android'
+ext_path=/Users/geraldignatius/.rvm/gems/ruby-1.9.3-p125/gems/rhodes-3.3.3/lib/extensions/json;/Users/geraldignatius/.rvm/gems/ruby-1.9.3-p125/gems/rhoelements-2.0.5.27.0/libs/motoapi;

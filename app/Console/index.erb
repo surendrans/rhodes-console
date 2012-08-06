@@ -1,0 +1,103 @@
+<div data-role="page">
+<script>
+$(document).ready(function(){
+var entered_ = [];
+  var  up_pressed = 0;  
+  document.getElementById('get_output').focus();
+$("#get_output").live("keydown", function(e) {
+      query_str = $(this).html();
+  var el = $(this);
+  
+  if (query_str == "clear" )
+{
+  $(".console").html('');
+$(".console").html('<div contentEditable="true" id="get_output" class="input_field"></div>') ;
+  document.getElementById('get_output').focus();
+  return false;
+}
+  else if(e.keyCode == 13) {
+    $(this).attr("contentEditable", "false");
+    $(this).attr("id", "");
+   // alert(unescape(query_str));
+      query_str = $('<div/>').html(query_str).text();
+      entered_.push(query_str);
+      var jqxhr = $.post("/app/Console/get_output",{query : unescape(query_str)}, function(data) { 
+        output = $(data).html();
+        output = $(output)
+        output.insertAfter(el);
+      $('<div contentEditable="true" id="get_output" class="input_field"></div>').insertAfter(output);
+        document.getElementById('get_output').focus();
+    
+    });
+    
+    
+  
+    return false;
+    } else if(e.keyCode == 38) {
+      if(entered_.length > 0) {
+      if (up_pressed > entered_.length-1) {
+        up_pressed = 0;
+      }
+      $(this).html('');
+       $(this).html(entered_[(entered_.length-1) - up_pressed]);
+      up_pressed+=1;
+      }
+      
+      } 
+    $("#get_output").focus(function(){
+    });
+});
+  });
+</script>
+	<div data-role="header" data-position="inline">
+    <h1>Console</h1>
+    <a href="<%= Rho::RhoConfig.start_path %>" class="ui-btn-left" data-icon="home" data-direction="reverse" <%= "data-ajax='false'" if is_bb6 %>>
+      Home
+    </a>
+    <a href="<%= url_for :action => :new %>" class="ui-btn-right" data-icon="plus">
+      New
+    </a>
+	</div>
+	<div class="console" >
+    <div contentEditable="true" id="get_output" class="input_field"></div>
+    </div>
+  <div data-role="content">
+    <ul data-role="listview">
+      <% @consoles.each do |console| %>
+      
+          <li>
+            <a href="<%= url_for :action => :show, :id => console.object %>">
+              <%= console.name %>
+            </a>
+          </li>
+      
+      <% end %>
+    </ul>
+  </div>
+<style>
+.output {
+  color : green;
+}
+#get_output, .input_field {
+padding-left:10px;
+background-color : #342826;
+    }
+
+    .success_output {
+      color :green;
+    }
+    .error_string{
+      color : red;
+    }
+    .success_output, .error_string {
+      padding-top : 5px;
+      padding-bottom : 5px;
+    }
+    .console {
+      overflow:scroll;
+      background-color:#2B1B17;
+      color:white;margin-left:100px;margin-right:100px;margin-top:20px;
+         min-height:400px;
+    }
+</style>
+</div>

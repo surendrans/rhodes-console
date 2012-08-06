@@ -1,0 +1,25 @@
+---
+sdkversion: 3.3.3
+name: Product-rhodes
+version: 1.0
+vendor: rhomobile
+build: debug
+bbver: 4.6
+applog: rholog.txt
+iphone:
+  configuration: Release
+  sdk: iphonesimulator5.0
+  provisionprofile: 
+  codesignidentity: 
+  entitlements: 
+  BundleIdentifier: com.rhomobile.product-rhodes
+  BundleURLScheme: product-rhodes
+wp:
+  productid: 84a5f6b0-8bb5-012f-09f2-406c8f083985
+symbian:
+  uid: '0xeb6298b2'
+extensions:
+- json
+- another-extension
+sdk: /Users/surendrans/.rvm/gems/ruby-1.9.3-p125/gems/rhodes-3.3.3
+app_type: rhoelements

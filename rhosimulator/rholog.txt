@@ -1,0 +1,159 @@
+I 08/06/2012 18:14:12:055 77343960            RhodesApp| New start params: -approot='/Users/geraldignatius/Projects/suren/Projects/Tryouts/rhodes-console' -rhodespath='/Users/geraldignatius/.rvm/gems/ruby-1.9.3-p125/gems/rhodes-3.3.3' 
+I 08/06/2012 18:14:12:055 77343960                 Main| Rhodes started
+I 08/06/2012 18:14:12:056 03781000         AppCallbacks| Starting main routine...
+I 08/06/2012 18:14:12:056 77343960            RhodesApp| Trying to get free listening port.
+I 08/06/2012 18:14:12:056 03781000         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I 08/06/2012 18:14:12:056 77343960            RhodesApp| Trying to bind of 0 port...
+I 08/06/2012 18:14:12:056 77343960            RhodesApp| Got port to bind on: 61661
+I 08/06/2012 18:14:12:056 77343960            RhodesApp| Free listening port: 61661
+I 08/06/2012 18:14:12:801 77343960            RhodesApp| callAppActiveCallback
+I 08/06/2012 18:14:12:801 77343960         AppCallbacks| addCommand: APP-ACTIVATED
+I 08/06/2012 18:14:12:801 03781000         AppCallbacks| Received command APP-ACTIVATED which is greater than expected (LOCAL-SERVER-STARTED) - postpone it
+I 08/06/2012 18:14:12:802 03781000         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I 08/06/2012 18:14:12:809 77343960         AppCallbacks| addCommand: UI-CREATED
+I 08/06/2012 18:14:12:809 77343960           MainWindow| navigate: 'about:blank'
+I 08/06/2012 18:14:12:809 0ae0d000            RhodesApp| Starting RhodesApp main routine...
+I 08/06/2012 18:14:12:809 03781000         AppCallbacks| Received command UI-CREATED which is greater than expected (LOCAL-SERVER-STARTED) - postpone it
+I 08/06/2012 18:14:12:809 03781000         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I 08/06/2012 18:14:12:809 77343960           MainWindow| WebView: loading...
+I 08/06/2012 18:14:12:810 77343960           MainWindow| WebView: URL changed to about:blank
+I 08/06/2012 18:14:12:810 77343960           MainWindow| WebView: loaded 
+I 08/06/2012 18:14:12:811 0af90000       ClientRegister| ClientRegister start
+I 08/06/2012 18:14:12:811 0af90000       ClientRegister| Try to register: 1
+I 08/06/2012 18:14:12:811 0af90000       ClientRegister| SyncThread is not ready
+I 08/06/2012 18:14:12:811 0af90000       ClientRegister| Waiting for 60 sec to try again to register client
+I 08/06/2012 18:14:12:811 0af90000       ClientRegister| Try to register: 2
+I 08/06/2012 18:14:12:811 0af90000       ClientRegister| SyncThread is not ready
+I 08/06/2012 18:14:12:811 0af90000       ClientRegister| Waiting for 60 sec to try again to register client
+I 08/06/2012 18:14:12:821 0ae0d000              RhoRuby| Init_RhoBlobs: /Users/geraldignatius/Projects/suren/Projects/Tryouts/rhodes-console/rhosimulator/db/db-files
+I 08/06/2012 18:14:12:823 0ae0d000              RhoRuby| require_compiled: digest
+I 08/06/2012 18:14:12:824 0ae0d000              RhoRuby| require_compiled: rhoframework
+I 08/06/2012 18:14:12:825 0ae0d000              RhoRuby| require_compiled: rational
+I 08/06/2012 18:14:12:826 0ae0d000              RhoRuby| require_compiled: rhom/rhom_db_adapter
+I 08/06/2012 18:14:12:829 0ae0d000              RhoRuby| require_compiled: rhodes
+I 08/06/2012 18:14:12:829 0ae0d000              RhoRuby| require_compiled: rhom/rhom_object
+I 08/06/2012 18:14:12:830 0ae0d000              RhoRuby| require_compiled: rhofsconnector
+I 08/06/2012 18:14:12:830 0ae0d000              RhoRuby| require_compiled: rho/rhofsconnector
+I 08/06/2012 18:14:12:831 0ae0d000              RhoRuby| require_compiled: rhom/rhom_object_factory
+I 08/06/2012 18:14:12:847 0ae0d000              RhoRuby| require_compiled: rhom/rhom
+I 08/06/2012 18:14:12:851 0ae0d000              RhoRuby| require_compiled: rhom/rhom_model
+I 08/06/2012 18:14:12:852 0ae0d000              RhoRuby| require_compiled: rhom
+I 08/06/2012 18:14:12:852 0ae0d000              RhoRuby| require_compiled: rho/rhoapplication
+I 08/06/2012 18:14:12:854 0ae0d000              RhoRuby| require_compiled: rholang/localization_simplified
+I 08/06/2012 18:14:12:856 0ae0d000              RhoRuby| require_compiled: rho/rhomsg
+I 08/06/2012 18:14:12:856 0ae0d000              RhoRuby| require_compiled: rho/rhotabbar
+I 08/06/2012 18:14:12:857 0ae0d000              RhoRuby| require_compiled: rho/rhotoolbar
+I 08/06/2012 18:14:12:857 0ae0d000                  APP| Current locale: ; Country code: 
+I 08/06/2012 18:14:12:857 0ae0d000                  APP| Locilized file: /Users/geraldignatius/.rvm/gems/ruby-1.9.3-p125/gems/rhodes-3.3.3/lib/framework/rholang/lang_
+I 08/06/2012 18:14:12:858 0ae0d000              RhoRuby| require_compiled: /Users/geraldignatius/.rvm/gems/ruby-1.9.3-p125/gems/rhodes-3.3.3/lib/framework/rholang/lang_en
+I 08/06/2012 18:14:12:858 0ae0d000                  APP| Locilized file: /Users/geraldignatius/Projects/suren/Projects/Tryouts/rhodes-console/app/lang/lang_
+I 08/06/2012 18:14:12:859 0ae0d000                  APP| Locilized file: /Users/geraldignatius/.rvm/gems/ruby-1.9.3-p125/gems/rhodes-3.3.3/lib/framework/rholang/rhoerror_
+I 08/06/2012 18:14:12:859 0ae0d000              RhoRuby| require_compiled: /Users/geraldignatius/.rvm/gems/ruby-1.9.3-p125/gems/rhodes-3.3.3/lib/framework/rholang/rhoerror_en
+I 08/06/2012 18:14:12:859 0ae0d000                  APP| Locilized file: /Users/geraldignatius/.rvm/gems/ruby-1.9.3-p125/gems/rhodes-3.3.3/lib/framework/rholang/rhomsg_
+I 08/06/2012 18:14:12:859 0ae0d000              RhoRuby| require_compiled: /Users/geraldignatius/.rvm/gems/ruby-1.9.3-p125/gems/rhodes-3.3.3/lib/framework/rholang/rhomsg_en
+I 08/06/2012 18:14:12:860 0ae0d000              RhoRuby| require_compiled: indifferent_access
+I 08/06/2012 18:14:12:862 0ae0d000              RhoRuby| require_compiled: rho/rhosupport
+I 08/06/2012 18:14:12:865 0ae0d000              RhoRuby| require_compiled: rho/rhocontroller
+I 08/06/2012 18:14:12:867 0ae0d000              RhoRuby| require_compiled: rho/render
+I 08/06/2012 18:14:12:872 0ae0d000              RhoRuby| require_compiled: rho/rho
+I 08/06/2012 18:14:12:885 0ae0d000              RhoRuby| require_compiled: rho/rhoerror
+I 08/06/2012 18:14:12:885 0ae0d000              RhoRuby| require_compiled: rhom/rhom_source
+E 08/06/2012 18:14:12:888 0ae0d000              RhoRuby| require_compiled: error: can not find rhodes_translator
+I 08/06/2012 18:14:12:888 0ae0d000              RhoRuby| require_compiled: rho/rhoviewhelpers
+I 08/06/2012 18:14:12:890 0ae0d000              RhoRuby| require_compiled: rho
+I 08/06/2012 18:14:12:890 0ae0d000              RhoRuby| require_compiled: debugger
+I 08/06/2012 18:14:12:915 0ae0d000              RhoRuby| require_compiled: uri
+I 08/06/2012 18:14:12:916 0ae0d000              RhoRuby| require_compiled: uri/common
+I 08/06/2012 18:14:12:928 0ae0d000              RhoRuby| require_compiled: uri/generic
+I 08/06/2012 18:14:12:937 0ae0d000              RhoRuby| require_compiled: uri/ftp
+I 08/06/2012 18:14:12:942 0ae0d000              RhoRuby| require_compiled: uri/http
+I 08/06/2012 18:14:12:943 0ae0d000              RhoRuby| require_compiled: uri/https
+I 08/06/2012 18:14:12:943 0ae0d000              RhoRuby| require_compiled: uri/ldap
+I 08/06/2012 18:14:12:945 0ae0d000              RhoRuby| require_compiled: uri/ldaps
+I 08/06/2012 18:14:12:945 0ae0d000              RhoRuby| require_compiled: uri/mailto
+I 08/06/2012 18:14:12:947 0ae0d000              RhoRuby| require_compiled: timeout
+I 08/06/2012 18:14:12:948 0ae0d000                  APP| [Debugger] Unable to open connection to debugger: #<Errno::ECONNREFUSED: Connection refused - connect(2)>
+I 08/06/2012 18:14:12:949 0ae0d000                  APP| RHO loaded
+I 08/06/2012 18:14:12:949 0ae0d000                  APP| Calling RHO.initialize
+I 08/06/2012 18:14:12:949 0ae0d000              RhoRuby| require_compiled: rhoappmanifest
+I 08/06/2012 18:14:12:950 0ae0d000              RhoRuby| require_compiled: find
+I 08/06/2012 18:14:12:952 0ae0d000                  APP| model file: Console/console
+I 08/06/2012 18:14:12:953 0ae0d000                   DB| Open DB: /Users/geraldignatius/Projects/suren/Projects/Tryouts/rhodes-console/rhosimulator/db/syncdbuser.sqlite
+I 08/06/2012 18:14:12:967 0ae0d000          GeoLocation| Creating singleton instance.
+I 08/06/2012 18:14:12:968 0ae0d000            RhodesApp| Starting sync engine...
+I 08/06/2012 18:14:12:968 0ae0d000                 Sync| sync_poll_interval: 0
+I 08/06/2012 18:14:12:968 0ae0d000                 Sync| syncserver: http://localhost:9292/application
+I 08/06/2012 18:14:12:968 0ae0d000                 Sync| bulksync_state: 0
+I 08/06/2012 18:14:12:968 0ae0d000            RhodesApp| RhoRubyInitApp...
+I 08/06/2012 18:14:12:968 0cb04000                 Sync| Starting main routine...
+I 08/06/2012 18:14:12:968 0ae0d000                  APP| init_app
+I 08/06/2012 18:14:12:968 0ae0d000              RhoRuby| require_compiled: application
+I 08/06/2012 18:14:12:969 0cb04000                 Sync| ThreadQueue blocked for 300 seconds...
+I 08/06/2012 18:14:12:969 0ae0d000                 Sync| Set notification. Source ID: -1;Url :http://127.0.0.1:61661/app/Settings/sync_notify; Params: 
+I 08/06/2012 18:14:12:969 0ae0d000           HttpServer| Start HTTP server
+I 08/06/2012 18:14:12:969 0ae0d000           HttpServer| Listen for connections on port 61661
+I 08/06/2012 18:14:12:969 0ae0d000         AppCallbacks| addCommand: LOCAL-SERVER-STARTED
+I 08/06/2012 18:14:12:969 03781000         AppCallbacks| process command: LOCAL-SERVER-STARTED
+I 08/06/2012 18:14:12:969 03781000           SystemImpl| rho_sys_report_app_started() has no implementation in RhoSimulator.
+I 08/06/2012 18:14:12:969 03781000         AppCallbacks| process command: UI-CREATED
+I 08/06/2012 18:14:12:971 0ae0d000           HttpServer| Process URI: '/system/uicreated'
+I 08/06/2012 18:14:12:972 0ae0d000                  APP| on_ui_created.navigate to start url: '/app/Console'
+I 08/06/2012 18:14:12:972 03781000         AppCallbacks| process command: APP-ACTIVATED
+I 08/06/2012 18:14:12:975 0ae0d000           HttpServer| Process URI: '/system/activateapp'
+I 08/06/2012 18:14:12:975 03781000         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I 08/06/2012 18:14:12:986 77343960           MainWindow| WebView: loading...
+I 08/06/2012 18:14:13:020 0ae0d000           HttpServer| Process URI: '/app/Console'
+I 08/06/2012 18:14:13:020 0ae0d000                  APP| RHO serve: /app/Console
+I 08/06/2012 18:14:13:021 0ae0d000              RhoRuby| require_compiled: Console/console_controller
+I 08/06/2012 18:14:13:021 0ae0d000              RhoRuby| require_compiled: helpers/browser_helper
+I 08/06/2012 18:14:13:022 0ae0d000                  APP| const_missing: Console
+I 08/06/2012 18:14:13:022 0ae0d000                  APP| load_model: Console
+I 08/06/2012 18:14:13:023 0ae0d000              RhoRuby| require_compiled: Console/console
+I 08/06/2012 18:14:13:023 0ae0d000                  APP| model name: Console
+I 08/06/2012 18:14:13:023 0ae0d000                  APP| model class found
+I 08/06/2012 18:14:13:023 0ae0d000                  APP| Console : {"property"=>{}}
+I 08/06/2012 18:14:13:023 0ae0d000                   DB| Open DB: /Users/geraldignatius/Projects/suren/Projects/Tryouts/rhodes-console/rhosimulator/db/syncdblocal.sqlite
+I 08/06/2012 18:14:13:035 0ae0d000                  APP| init_db_sources
+I 08/06/2012 18:14:13:035 0ae0d000                  APP| start_id: 40003
+I 08/06/2012 18:14:13:036 0ae0d000                  APP| Migrate schema sources: {}
+I 08/06/2012 18:14:13:038 0ae0d000              RhoRuby| require_compiled: erb
+I 08/06/2012 18:14:13:044 0ae0d000                  APP| eval_compiled_file : /Users/geraldignatius/Projects/suren/Projects/Tryouts/rhodes-console/app/Console/index.erb
+I 08/06/2012 18:14:13:046 0ae0d000                  APP| eval_compiled_file : /Users/geraldignatius/Projects/suren/Projects/Tryouts/rhodes-console/app/layout.erb
+I 08/06/2012 18:14:13:048 0ae0d000 RHO ConsoleController| Layout file: /Users/geraldignatius/Projects/suren/Projects/Tryouts/rhodes-console/app/layout.erb. Content size: 4554
+I 08/06/2012 18:14:13:134 77343960           MainWindow| addToolbarButton: Label: '';Action: 'back'
+I 08/06/2012 18:14:13:135 77343960           MainWindow| addToolbarButton: Label: '';Action: 'separator'
+I 08/06/2012 18:14:13:135 77343960           MainWindow| addToolbarButton: Label: '';Action: 'home'
+I 08/06/2012 18:14:13:135 77343960           MainWindow| addToolbarButton: Label: '';Action: 'refresh'
+I 08/06/2012 18:14:13:135 77343960           MainWindow| addToolbarButton: Label: '';Action: 'options'
+I 08/06/2012 18:14:13:138 77343960           MainWindow| WebView: URL changed to http://127.0.0.1:61661/app/Console
+I 08/06/2012 18:14:13:139 0ae0d000           HttpServer| Process URI: '/public/jquery/jquery-1.6.4.min.js'
+I 08/06/2012 18:14:13:142 0ae0d000           HttpServer| Process URI: '/public/jquery/jquery.json-2.3.min.js'
+I 08/06/2012 18:14:13:144 0ae0d000           HttpServer| Process URI: '/public/jqmobile/jquery.mobile-1.0.1.min.css'
+I 08/06/2012 18:14:13:146 0ae0d000           HttpServer| Process URI: '/public/css/jqmobile-patch.css'
+I 08/06/2012 18:14:13:149 0ae0d000           HttpServer| Process URI: '/public/jqmobile/jquery.mobile-1.0.1.min.js'
+I 08/06/2012 18:14:13:152 0ae0d000           HttpServer| Process URI: '/public/js/jqmobile-patch.js'
+I 08/06/2012 18:14:13:155 0ae0d000           HttpServer| Process URI: '/public/css/android.css'
+I 08/06/2012 18:14:13:249 0ae0d000           HttpServer| Process URI: '/public/jqmobile/images/icons-18-white.png'
+I 08/06/2012 18:14:13:263 77343960           MainWindow| WebView: loaded 
+I 08/06/2012 18:14:21:049 0ae0d000           HttpServer| Process URI: '/app/Console/get_output'
+I 08/06/2012 18:14:21:050 0ae0d000                  APP| RHO serve: /app/Console/get_output
+I 08/06/2012 18:14:21:050 0ae0d000              RhoRuby| require_compiled: Console/console_controller
+I 08/06/2012 18:14:21:050 0ae0d000              RhoRuby| require_compiled: helpers/browser_helper
+I 08/06/2012 18:14:21:051 0ae0d000                  APP| Params: {"query"=>"1+2"}
+I 08/06/2012 18:14:21:051 0ae0d000                  APP| eval_compiled_file : /Users/geraldignatius/Projects/suren/Projects/Tryouts/rhodes-console/app/Console/get_output.erb
+I 08/06/2012 18:14:23:260 0ae0d000           HttpServer| Process URI: '/app/Console/get_output'
+I 08/06/2012 18:14:23:260 0ae0d000                  APP| RHO serve: /app/Console/get_output
+I 08/06/2012 18:14:23:261 0ae0d000              RhoRuby| require_compiled: Console/console_controller
+I 08/06/2012 18:14:23:261 0ae0d000              RhoRuby| require_compiled: helpers/browser_helper
+I 08/06/2012 18:14:23:262 0ae0d000                  APP| Params: {"query"=>"User"}
+I 08/06/2012 18:14:23:262 0ae0d000                  APP| const_missing: User
+I 08/06/2012 18:14:23:263 0ae0d000                  APP| eval_compiled_file : /Users/geraldignatius/Projects/suren/Projects/Tryouts/rhodes-console/app/Console/get_output.erb
+I 08/06/2012 18:14:46:204 0ae0d000           HttpServer| Process URI: '/app/Console/get_output'
+I 08/06/2012 18:14:46:204 0ae0d000                  APP| RHO serve: /app/Console/get_output
+I 08/06/2012 18:14:46:205 0ae0d000              RhoRuby| require_compiled: Console/console_controller
+I 08/06/2012 18:14:46:205 0ae0d000              RhoRuby| require_compiled: helpers/browser_helper
+I 08/06/2012 18:14:46:206 0ae0d000                  APP| Params: {"query"=>"rhodes model User name,age"}
+I 08/06/2012 18:14:46:207 0ae0d000                  APP| eval_compiled_file : /Users/geraldignatius/Projects/suren/Projects/Tryouts/rhodes-console/app/Console/get_output.erb
+I 08/06/2012 18:15:12:813 0af90000       ClientRegister| Try to register: 3
+I 08/06/2012 18:15:12:813 0af90000       ClientRegister| Session is empty, do register later
+I 08/06/2012 18:15:12:813 0af90000       ClientRegister| Waiting for 4294967295 sec to try again to register client
