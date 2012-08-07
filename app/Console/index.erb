@@ -51,35 +51,16 @@ $(".console").html('<div contentEditable="true" id="get_output" class="input_fie
 </script>
 	<div data-role="header" data-position="inline">
     <h1>Console</h1>
-    <a href="<%= Rho::RhoConfig.start_path %>" class="ui-btn-left" data-icon="home" data-direction="reverse" <%= "data-ajax='false'" if is_bb6 %>>
-      Home
-    </a>
-    <a href="<%= url_for :action => :new %>" class="ui-btn-right" data-icon="plus">
-      New
-    </a>
 	</div>
 	<div class="console" >
     <div contentEditable="true" id="get_output" class="input_field"></div>
     </div>
-  <div data-role="content">
-    <ul data-role="listview">
-      <% @consoles.each do |console| %>
-      
-          <li>
-            <a href="<%= url_for :action => :show, :id => console.object %>">
-              <%= console.name %>
-            </a>
-          </li>
-      
-      <% end %>
-    </ul>
-  </div>
 <style>
 .output {
   color : green;
 }
 #get_output, .input_field {
-padding-left:10px;
+padding-left:22px;
 background-color : #342826;
     }
 
@@ -94,10 +75,16 @@ background-color : #342826;
       padding-bottom : 5px;
     }
     .console {
-      overflow:scroll;
       background-color:#2B1B17;
-      color:white;margin-left:100px;margin-right:100px;margin-top:20px;
+      color:white;
+      margin-left:100px;
+      margin-right:100px;margin-top:20px;
          min-height:400px;
+
     }
+.input_field {    
+  background-image: url("/public/images/arrow.png");
+  background-repeat: no-repeat;
+}
 </style>
 </div>
