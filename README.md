@@ -3,4 +3,4 @@ rhodes-console
 A simple console for rhodes application
 
 
-![Image Alt](https://github.com/surendrans/rhodes-console/blob/master/public/images/screenshots/console_new.png)
+![Image Alt](https://raw.github.com/surendrans/rhodes-console/master/public/images/screenshots/console_new.png)
